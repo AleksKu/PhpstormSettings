@@ -13,12 +13,26 @@
     <phpInfoCache>
       <interpreter name="PHP 7">
         <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php70/7.0.8/bin/php-cgi" php_cli="/usr/local/Cellar/php70/7.0.8/bin/php" path_separator=":" version="7.0.8">
-          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-intl.ini, /usr/local/etc/php/7.0/conf.d/ext-redis.ini, /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
+          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-amqp.ini, /usr/local/etc/php/7.0/conf.d/ext-intl.ini, /usr/local/etc/php/7.0/conf.d/ext-redis.ini, /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.0/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
             <configuration_option name="allow_url_include" value="" />
+            <configuration_option name="amqp.auto_ack" value="0" />
+            <configuration_option name="amqp.channel_max" value="256" />
+            <configuration_option name="amqp.connect_timeout" value="0" />
+            <configuration_option name="amqp.frame_max" value="131072" />
+            <configuration_option name="amqp.heartbeat" value="0" />
+            <configuration_option name="amqp.host" value="localhost" />
+            <configuration_option name="amqp.login" value="guest" />
+            <configuration_option name="amqp.password" value="guest" />
+            <configuration_option name="amqp.port" value="5672" />
+            <configuration_option name="amqp.prefetch_count" value="3" />
+            <configuration_option name="amqp.read_timeout" value="0" />
+            <configuration_option name="amqp.timeout" value="" />
+            <configuration_option name="amqp.vhost" value="/" />
+            <configuration_option name="amqp.write_timeout" value="0" />
             <configuration_option name="arg_separator.input" value="&amp;" />
             <configuration_option name="arg_separator.output" value="&amp;" />
             <configuration_option name="assert.active" value="1" />
@@ -314,6 +328,7 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="amqp" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
