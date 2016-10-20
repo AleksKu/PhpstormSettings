@@ -1,6 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="FILE_MASK" value="*.yml" />
+    <option name="preserveCase" value="true" />
+    <option name="PRESERVE_CASE_REPLACE" value="true" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -10,10 +12,10 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.php</mask>
       <mask>*.xml</mask>
       <mask>*.json</mask>
       <mask>*.yml</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
