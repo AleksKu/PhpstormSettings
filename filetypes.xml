@@ -2,14 +2,15 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="box" type="Native" />
-      <mapping pattern="Gemfile" type="PLAIN_TEXT" />
       <mapping pattern="dc" type="PLAIN_TEXT" />
       <mapping pattern="..gitignore" type="PLAIN_TEXT" />
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
+      <mapping pattern="Gemfile" type="PLAIN_TEXT" />
       <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="console" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
       <mapping ext="old" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
