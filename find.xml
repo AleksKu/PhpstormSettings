@@ -2,6 +2,7 @@
   <component name="FindSettings">
     <option name="preserveCase" value="true" />
     <option name="PRESERVE_CASE_REPLACE" value="true" />
+    <option name="FILE_MASK" value="composer.json" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -15,6 +16,7 @@
       <mask>*.yml</mask>
       <mask>*.php</mask>
       <mask>*.json</mask>
+      <mask>composer.json</mask>
     </recentFileMasks>
   </component>
 </application>
