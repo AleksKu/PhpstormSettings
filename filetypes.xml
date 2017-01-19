@@ -7,6 +7,7 @@
       <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern="Gemfile" type="PLAIN_TEXT" />
       <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
+      <mapping pattern="crontab-primary" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="console" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
